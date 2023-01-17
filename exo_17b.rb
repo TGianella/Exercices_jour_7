@@ -8,9 +8,6 @@ if nb >= 1 and nb <= 25 then
     ((2*i)+1).times do
       print "#"
     end
-    (nb-(i+1)).times do
-      print " "
-    end
     puts
   end
 else
